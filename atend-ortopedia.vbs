@@ -6,9 +6,9 @@ shell.run """C:\smart\Aplic125\AUDIT125.exe"""
 WScript.sleep 3000
 
 ' Realiza o login 🔓
-shell.SendKeys"FLAVIOE"
+shell.SendKeys"User"
 shell.SendKeys "{ENTER}"
-shell.SendKeys"Shomertora*37"
+shell.SendKeys"Password"
 shell.SendKeys"{ENTER}"
 WScript.sleep 1000
 ' Seleciona a Base de Dados *HDPA | Unacon
